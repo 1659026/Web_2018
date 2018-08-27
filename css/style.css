@@ -1,0 +1,90 @@
+/*Header */
+#menu-bar{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 175px;
+}
+
+#Logo {
+  width:310px;
+  height:94.25px;
+  margin-left: 50px;
+}
+
+#Mast_Head{
+  margin-top: 30px;
+}
+
+#Mast_Nav{
+  background: none;
+  border: none;
+}
+
+#loggin_attr{
+  display: inline;
+}
+
+.dropdown{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-ico{
+  margin-top: 33px;
+}
+
+/*Footer */
+#footer_txt {
+  color: #ffffff ;
+}
+
+.jumbotron{
+  height: 450vh;
+}
+
+#footer_1 {
+  background:#1e4490;
+  padding:15px;
+}
+
+#footer_2 {
+  background: #f29220;
+  padding:5px;
+
+}
+
+#footer_lnk1 {
+  color:#ffffff;
+}
+
+#footer_lnk2 {
+  color:#ffffff;
+  float:right;
+  padding-right:30px;
+}
+
+#map{
+  margin-top: -40px;
+}
+.Footer{
+  line-height: 2px;
+}
+#congty{
+  margin-top: -15px;
+}
+#book{
+  width: 6px;
+  height: auto;
+}
+img#Logo {
+    float:  right;
+}
+div#Mast_Head {
+    padding-left: 88px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
