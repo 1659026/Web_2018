@@ -37,6 +37,7 @@
 /*Footer */
 #footer_txt {
   color: #ffffff ;
+  height: auto;
 }
 
 .jumbotron{
@@ -44,7 +45,7 @@
 }
 
 #footer_1 {
-  background:#1e4490;
+  background-image: linear-gradient(#B4CCF2, #152F64 65%);
   padding:15px;
 }
 
@@ -64,14 +65,16 @@
   padding-right:30px;
 }
 
-#map{
-  margin-top: -40px;
-}
 .Footer{
   line-height: 2px;
 }
 #congty{
   margin-top: -15px;
+  font-size: 15px;
+}
+#congty1{
+  margin-top: -15px;
+  margin-bottom: 50px;
 }
 #book{
   width: 6px;
@@ -87,4 +90,22 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+#h31 {
+    font-size: 20px;
+    margin-bottom: -16px;
+        margin-top: 14px;
+}
+#h32 {
+    font-size: 20px;
+    margin-bottom: -18px;
+}
+.p{
+  margin-top: -2px;
+}
+iframe {
+    margin-top: -48px;
+}
+#hr1{
+  width: 280px;
 }

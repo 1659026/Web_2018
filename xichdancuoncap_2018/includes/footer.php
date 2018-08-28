@@ -1,15 +1,19 @@
 <div class="container-fluid" id="footer_txt">
+
   <div class="row" id="footer_1">
     <div class="col-lg-2">
 
     </div>
     <div class="col-lg-3">
-      <h3>LlÊN HỆ</h3><hr>
-      <p id='congty'>Công Ty TNHH Xích Dẫn Cuộn Cáp </p>
-      <p>91/5 Nguyễn Hữu Dật, phường Tây Thạnh, quận Tân Phú, Tp. Hồ Chí Minh</p>
-      <p>Email: nguyenhuythanh@yahoo.com</p>
-      <h3>BỘ PHẬN KINH DOANH</h3> <hr>
-      <table id='congty'>
+      <h3 id="h31">LlÊN HỆ</h3><hr id="hr1">
+      <p id='congty'><b>Công Ty TNHH Xích Dẫn Cuộn Cáp</b></p>
+      <p>91/5 Nguyễn Hữu Dật, phường Tây Thạnh,</p>
+      <p>quận Tân Phú, Tp. Hồ Chí Minh</p>
+      <p><b>Giám đốc:</b> NGUYỄN HUY THÀNH</p>
+      <p><b>Điện thoại:</b> 0912 942 089</p>
+      <p><b>Email:</b> nguyenhuythanh@yahoo.com</p>
+      <h3 id="h32">BỘ PHẬN KINH DOANH</h3><hr id="hr1">
+      <table id='congty1'>
         <tr>
           <td>Mr. Thượng</td>
           <td>&nbsp&nbsp&nbsp&nbsp&nbsp ducthuong@sltvina.com.vn</td>
@@ -33,7 +37,7 @@
       </table>
     </div>
     <div class="col-lg-2">
-      <h3>LƯỢT TRUY CẬP</h3> <hr>
+      <h3 id="h31">LƯỢT TRUY CẬP</h3> <hr>
       <p id='congty'>Hôm nay: 2387</p>
       <p>Hôm qua: 463546</p>
       <p>Tổng Lượt truy cập: 83752786</p> <br><br>
@@ -66,6 +70,9 @@
       <a href="#" id="footer_lnk1">Điều khoản sử dụng</a>  <a href="#" id="footer_lnk2">Hướng dẫn</a>
     </div>
     <div class="col-lg-2">
+
+
+
 
     </div>
   </div>

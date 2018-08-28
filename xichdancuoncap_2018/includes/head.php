@@ -25,6 +25,14 @@
       .inner-addon {
       position: relative;
       }
+      hr{
+        width: auto;
+        margin-left: -1px;
+      }
+
+      p {
+    margin: -6px 0 10px;
+}
 
       /* style icon */
       .inner-addon .glyphicon {
@@ -70,10 +78,6 @@
                   <input type="text" class="form-control round" id="" placeholder="Tìm kiếm...">
                   <i class="glyphicon glyphicon-search form-control-feedback"></i>
               </div>
-                <ul id ='loggin_attr'>
-                  <li>VI</li>
-                  <li>KR</li>
-                </ul>
             </div>
           </form>
         </div>
