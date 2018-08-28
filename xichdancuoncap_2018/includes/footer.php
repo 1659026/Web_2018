@@ -81,19 +81,9 @@
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/customjs.js"></script>
 <script type="text/javascript">
-  $(document).ready(function() {
-    $("li.dropdown").each(function(){
-      $(this).click(function() {
-      var x = $(this).outerWidth();
-      console.log(x);
-      $(".dropdown-menu").css("width", x);
-    })
 
-
-  })
-
-  })
 </script>
 </body>
 </html>
