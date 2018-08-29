@@ -64,10 +64,12 @@
           transition: width 0.5s;
            text-align: left;
            margin-top: 18px;
+           opacity: 0;
 
         }
         #search1:hover{
           width: 390px;
+          opacity: 9;
         }
         img#Logo {
     margin-right: -16px;
