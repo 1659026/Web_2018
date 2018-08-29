@@ -57,6 +57,18 @@
           margin-left: 75px;
           margin-top: 10px;
         }
+        #search1{
+          width: 0px;
+          float: right;
+          position: relative;
+          transition: width 0.5s;
+           text-align: left;
+           margin-top: 18px;
+
+        }
+        #search1:hover{
+          width: 300px;
+        }
       </style>
 
     <!--[if lt IE 9]>
@@ -76,7 +88,7 @@
             <div class="search">
               <div class="form-group inner-addon right-addon">
                 <label for=""></label>
-                  <input type="text" class="form-control round" id="" placeholder="Tìm kiếm...">
+                  <input type="text" class="form-control round" id="search1" placeholder="Tìm kiếm...">
                   <i class="glyphicon glyphicon-search form-control-feedback"></i>
               </div>
             </div>

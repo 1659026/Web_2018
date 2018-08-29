@@ -9,3 +9,6 @@ update 29/08/2018:
 
 	+Need to re-do styling for login form
 	+Need to add sign up form (figuring duel MODAL overlay)
+
+update 29/08/2018
+        -searching auto expand
