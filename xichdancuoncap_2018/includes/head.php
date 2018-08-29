@@ -67,8 +67,11 @@
 
         }
         #search1:hover{
-          width: 300px;
+          width: 390px;
         }
+        img#Logo {
+    margin-right: -16px;
+}
       </style>
 
     <!--[if lt IE 9]>
