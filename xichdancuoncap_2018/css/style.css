@@ -147,6 +147,7 @@
 }
 img#Logo {
     float:  right;
+
 }
 div#Mast_Head {
     padding-left: 88px;
@@ -173,4 +174,22 @@ iframe {
 }
 #hr1{
   width: 280px;
+}
+ul li.side-menu a{
+  color: #1E4490;
+}
+
+a:hover#login-btn {
+    background-color:  #1E4490;
+    color:  white;
+    text-decoration:  none;
+    border: 1px solid  #1E4490;
+    border-radius: 12px;
+    padding: 3px;
+}
+
+a#login-btn {
+    padding: 3px;
+    border: 1px solid #1E4490 ;
+    border-radius: 12px;
 }

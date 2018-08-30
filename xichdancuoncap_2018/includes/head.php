@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title></title>
+    <link href="css/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -23,6 +24,7 @@
         li a.dropdown-toggle{
           color: #1E4490;
         }
+
         .inner-addon {
         position: relative;
         }
@@ -72,8 +74,85 @@
           opacity: 9;
         }
         img#Logo {
-    margin-right: -16px;
-}
+          margin-right: -16px;
+            padding-bottom: 10px;
+        }
+
+        li a:hover#gt, a:hover#sp, a:hover#lh, a:hover#vd, a:hover#tltk {
+            background-color:  #1E4490;
+        }
+        .jumbotron {
+            padding-top: 175px;
+        }
+
+        input.form-st {
+          border: none;
+          border-bottom: 1px solid #1E4490;
+          box-shadow:  none;
+          border-radius: unset;
+          width: max-content;
+          margin: auto;
+          width: 346px;
+        }
+
+        label{
+          margin-left: 50px;
+          font-weight: unset;
+          color: #1E4490;
+          font-size: 25px;
+        }
+        img.avatar {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 78px;
+          margin-top: 20px;
+          margin-bottom:11px;
+        }
+
+        form.modal-content.animate {
+          width: 450px;
+          height: 635px;
+          border-radius: 50px;
+        }
+        p.dksd{
+          text-align: left;
+          padding: 0px 51px 0px 51px;
+          font-size: 18px;
+          color: #1E4490;
+        }
+
+        p.dksd2{
+          margin-top: 14px;
+          margin-bottom: 20px;
+          text-align: center;
+          padding: 0px 51px 0px 51px;
+          font-size: 18px;
+          color: #1E4490;
+          font-weight: bold;
+        }
+        button.sign-up{
+          margin: auto;
+          background-color: #1E4490;
+          color: white;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          width: 39%;
+          font-size: 23px;
+          font-weight: bold;
+        }
+        button.sign-in{
+          margin: auto;
+          background-color: #1E4490;
+          color: white;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          width: 39%;
+          font-size: 23px;
+          font-weight: bold;
+        }
       </style>
 
     <!--[if lt IE 9]>
@@ -102,41 +181,77 @@
         <div id="topbar" class="col-lg-4">
          <nav>
           <ul>
-           <li><a href="#">VI</a></li>
+           <li class="side-menu"><a href="#">VI</a></li>
            <li class="divider">|</li>
-           <li><a href="#">KR</a></li>
+           <li class="side-menu"><a href="#">KR</a></li>
            <li class="divider">|</li>
-           <li><a href="#" onclick="document.getElementById('id01').style.display='block'">Đăng nhập</a></li>
+           <li  class="side-menu"><a href="#" class="hvr-fade" id="login-btn" onclick="document.getElementById('id01').style.display='block';$('.signup').hide();$('.signin').show();">Đăng nhập</a></li>
           </ul>
          </nav>
         </div>
         <!-- The Modal -->
-        <div id="id01" class="modal">
+        <div id="id01" class="modal" >
           <span onclick="document.getElementById('id01').style.display='none'"
         class="close" title="Close Modal">&times;</span>
           <!-- Modal Content -->
-          <form class="modal-content animate" action="">
+          <form class="modal-content animate signup" style="width: 450px;" action="index.php">
             <div class="imgcontainer">
               <img src="images/icon-1@2x.png" alt="Avatar" class="avatar">
             </div>
 
-            <div class="container">
-              <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required>
+                <div class="form-group">
+                  <label for="name">Tên đăng nhập:</label>
+                  <input type="text" class="form-control form-st" id="name" placeholder="">
+                </div>
 
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+                <div class="form-group">
+                  <label for="pw1">Mật khẩu:</label>
+                  <input type="text" class="form-control form-st" id="pw1" placeholder="">
 
-              <button type="submit">Login</button>
-              <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-              </label>
-            </div>
+                </div>
 
-            <div class="container" style="background-color:#f1f1f1">
-              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-              <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
+                <div class="form-group">
+                  <label for="pw2">Nhập lại mật khẩu:</label>
+                  <input type="text" class="form-control form-st" id="pw2" placeholder="">
+
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="text" class="form-control form-st" id="email" placeholder="">
+                </div>
+
+                <p class="dksd">Với việc bấm "Đăng ký", bạn đã đồng ý với <a href="#" style="color:#F29220; text-decoration: underline;">Điều khoản sử dụng</a>
+                </p>
+
+                <button type="submit" class="btn btn-default sign-up hvr-fade">
+                    Đăng ký
+                </button>
+                <p class="dksd2">Có tài khoản rồi? <a href="#" style="color:#F29220; text-decoration: underline;" id="login">Đăng nhập</a>
+                </p>
           </form>
+          <form class="modal-content animate signin" style="width: 450px; height: 450px" action="index.php">
+            <div class="imgcontainer">
+              <img src="images/icon-1@2x.png" alt="Avatar" class="avatar">
+            </div>
+
+                <div class="form-group">
+                  <label for="name">Tên đăng nhập:</label>
+                  <input type="text" class="form-control form-st" id="name" placeholder="">
+                </div>
+
+                <div class="form-group">
+                  <label for="pw1">Mật khẩu:</label>
+                  <input type="text" class="form-control form-st" id="pw1" placeholder="">
+
+                </div>
+
+                <button type="submit" class="btn btn-default sign-in hvr-fade">
+                    Đăng nhập
+                </button>
+
+                <p class="dksd2">Chưa có tài khoản? <a href="#" style="color:#F29220; text-decoration: underline;" id="apply">Đăng ký</a>
+                </p>
+              </form>
         </div>
       </div>

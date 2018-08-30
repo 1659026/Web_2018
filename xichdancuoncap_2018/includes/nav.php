@@ -3,14 +3,14 @@
   <div class="container">
     <ul class="nav nav-pills nav-justified" id ="Format_Nav">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle"data-toggle="dropdown" id="gt">Giới Thiệu</a>
+          <a href="#" class="dropdown-toggle hvr-fade nav-list"data-toggle="dropdown" id="gt">Giới Thiệu</a>
           <ul class="dropdown-menu">
             <li><a href="#">Giới thiệu</a></li>
             <li class="divider"></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="sp">Sản phẩm</a>
+          <a href="#" class="dropdown-toggle hvr-fade nav-list" data-toggle="dropdown" id="sp">Sản phẩm</a>
           <ul class="dropdown-menu">
             <li><a href="#">Í cụi</a></li>
             <li class="divider"></li>
@@ -18,21 +18,21 @@
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="tltk">Tài Liệu Tham Khảo</a>
+          <a href="#" class="dropdown-toggle hvr-fade nav-list" data-toggle="dropdown" id="tltk">Tài Liệu Tham Khảo</a>
           <ul class="dropdown-menu">
             <li><a href="#"></a></li>
             <li class="divider"></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="vd">Videos</a>
+          <a href="#" class="dropdown-toggle hvr-fade nav-list" data-toggle="dropdown" id="vd">Videos</a>
           <ul class="dropdown-menu">
             <li><a href="#"></a></li>
             <li class="divider"></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="lh">Liên Hệ</a>
+          <a href="#" class="dropdown-toggle hvr-fade nav-list" data-toggle="dropdown" id="lh">Liên Hệ</a>
           <ul class="dropdown-menu">
             <li><a href="#"></a></li>
             <li class="divider"></li>

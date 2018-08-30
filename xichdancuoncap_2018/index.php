@@ -5,9 +5,11 @@ include 'includes/nav.php'
 
 
     </div>
-    <div class="jumbotron">
-      <h1>Hello, world!</h1>
-      <p></p>
+    <div class="container">
+      <div class="jumbotron">
+          <h1>Hello, world!</h1>
+          <p></p>
+      </div>
     </div>
     <!-- Footer -->
 

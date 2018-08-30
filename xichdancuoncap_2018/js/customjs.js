@@ -13,6 +13,20 @@ $(document).ready(function() {
     })
   })
 
+  $("#apply").click(function() {
+    /* Act on the event */
+    $(".signin").hide();
+    $(".signup").fadeIn(500);
+  });
+
+  $("#login").click(function() {
+    /* Act on the event */
+    $(".signin").fadeIn(500);
+    $(".signup").hide();
+  });
+
+
+
   // Get the modal
   var modal = document.getElementById('id01');
 
