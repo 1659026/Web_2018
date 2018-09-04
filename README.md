@@ -21,6 +21,6 @@ update 30/08/2018
 	+Need to fix 2 form in the middle of the pages
 	+Responsive for whole web.
 update 04/09/2018
-	- Huy + Ý : do the slide banner and follow the requests (in Process->read-me.txt)
+	- Huy + Y : do the slide banner and follow the requests (in Process->read-me.txt)
 	- Gia Huy: change the background of header and add a button "up to top" (if you can't do javascript just do only css)
 	- Q: the rest.
