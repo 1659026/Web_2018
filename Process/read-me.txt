@@ -1,0 +1,33 @@
+<<<<<Trang chủ>>>>>
+
+pic-header: đưa lên phần header, coi như phần nền của header, nhớ thêm shadow cho header
+
+canh lại chữ "sản phẩm - hãng - xuất xứ"
+
+đưa mấy cái banner vào phần slider, thêm 2 nút backward/forward chìm vào 2 bên cạnh, nút điều hướng ở dưới OPACITY = 40%
+
+mấy nút điều hướng bên dưới banner khi không kích hoạt thì OPACITY = 40%
+
+pic-main-content-1: đưa xuống phần nền chìm giữa trang
+
+Up-to-top: cho nó OPACITY = 40%, fix ở góc dưới bên phải
+
+"NHÀ CUNG CẤP XÍCH DẪN CUỐN CÁP TOÀN CẦU" = 40px, COLOR = #F29220
+
+Đoạn văn = 24px, COLOR = #707070
+
+"LIÊN HỆ", "BỘ PHẬN KINH DOANH", "LƯỢT TRUY CẬP" = 24px, mấy thông tin ngay dưới = 18px, COLOR = WHITE
+
+
+
+<<<<<Giới thiệu>>>>>
+
+Phần thanh địa chỉ bên trên (trang chủ > giới thiệu >…): 
+	nền dùng pic-header (nhớ resize lại), bo góc tròn 2 bên
+	Chữ khi đang không ở mục nào = 18px, COLOR = #707070, màu đánh dấu mục đang truy cập hiện tại = BLACK
+
+Sidebar: 
+	chữ = 24px, màu khi hover chuột = màu khi đang truy cập = #F29220, underline thêm hiệu ứng khi hover càng tốt 
+	chữ khi không kích hoạt màu = #1E4490
+
+Nội dung ngay giữa tạm để trống, chưa có nội dung gì
