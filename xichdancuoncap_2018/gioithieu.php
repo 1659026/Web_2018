@@ -5,7 +5,7 @@ include 'includes/nav.php'
 
     <div class="container">
       <div class="jumbotron">
-          <h1>Hello, world!</h1>
+          <h1>Trang giới thiệu.</h1>
           <p></p>
       </div>
     </div>

@@ -220,13 +220,13 @@
 
                 <div class="form-group">
                   <label for="pw1">Mật khẩu:</label>
-                  <input type="text" class="form-control form-st" id="pw1" placeholder="">
+                  <input type="password" class="form-control form-st" id="pw1" placeholder="">
 
                 </div>
 
                 <div class="form-group">
                   <label for="pw2">Nhập lại mật khẩu:</label>
-                  <input type="text" class="form-control form-st" id="pw2" placeholder="">
+                  <input type="password" class="form-control form-st" id="pw2" placeholder="">
 
                 </div>
 
@@ -251,12 +251,12 @@
 
                 <div class="form-group">
                   <label for="name">Tên đăng nhập:</label>
-                  <input type="text" class="form-control form-st" id="name" placeholder="">
+                  <input type="text" class="form-control form-st" id="login_name" placeholder="">
                 </div>
 
                 <div class="form-group">
                   <label for="pw1">Mật khẩu:</label>
-                  <input type="text" class="form-control form-st" id="pw1" placeholder="">
+                  <input type="password" class="form-control form-st" id="login_pw" placeholder="">
 
                 </div>
 

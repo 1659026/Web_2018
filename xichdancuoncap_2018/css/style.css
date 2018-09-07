@@ -100,6 +100,23 @@
   margin-top: 33px;
 }
 
+a#lh, a#vd, a#gt {
+    width: 177px;
+    text-align: center;
+}
+
+
+a#sp {
+    width: 330px;
+    text-align: center;
+}
+
+a#tltk {
+    width: 271px;
+    text-align: center;
+}
+
+
 /*Footer */
 #footer_txt {
   color: #ffffff ;
@@ -137,11 +154,14 @@
 }
 #congty{
   margin-top: -15px;
-  font-size: 15px;
+  font-size: 18px;
 }
 #congty1{
   margin-top: -15px;
   margin-bottom: 50px;
+}
+#congty1 tr {
+    height: 35px;
 }
 #book{
   width: 6px;
@@ -165,7 +185,7 @@ ul {
         margin-top: 14px;
 }
 #h32 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: -18px;
 }
 .p{
