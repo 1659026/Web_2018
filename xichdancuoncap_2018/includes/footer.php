@@ -30,17 +30,13 @@
           <td>Ms. Thương</td>
           <td>&nbsp&nbsp&nbsp&nbsp&nbsp sale08sltvina@yahoo.com</td>
         </tr>
-        <tr>
-          <td>Ms. Mai</td>
-          <td>&nbsp&nbsp&nbsp&nbsp&nbsp sale264sltvina@yahoo.com</td>
-        </tr>
       </table>
     </div>
     <div class="col-lg-2">
       <h3 id="h31">LƯỢT TRUY CẬP</h3> <hr>
       <p id='congty'>Hôm nay: 2387</p>
       <p>Hôm qua: 463546</p>
-      <p>Tổng Lượt truy cập: 83752786</p> <br><br>
+      <p>Tổng Lượt truy cập: 83752786</p> <br><br><br><br>
       <a href="#"><img src="images/Facebook.png" ></a>
       <a href="#"><img src="images/Twitter.png" ></a>
       <a href="#"><img src="images/LinkedIn.png" ></a>
@@ -63,17 +59,13 @@
     <div class="col-lg-2">
 
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-4">
       &copy 2018 XICHDANCUONCAP
     </div>
-    <div class="col-lg-3">
-      <a href="#" id="footer_lnk1">Điều khoản sử dụng</a>  <a href="#" id="footer_lnk2">Hướng dẫn</a>
-    </div>
-    <div class="col-lg-2">
-
-
-
-
+    <div class="col-lg-4">
+      <a href="#" id="footer_lnk2">Hướng dẫn</a>
+      <a href="#" id="footer_lnk2">Chính sách bảo mật</a>
+      <a href="#" id="footer_lnk2">Điều khoản sử dụng</a>
     </div>
   </div>
 </div>

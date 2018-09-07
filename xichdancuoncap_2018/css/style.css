@@ -62,6 +62,7 @@
   background-color: white;
   width: 100%;
   height: 175px;
+  box-shadow: 0px 3px 1px lightgrey;
 }
 
 #Logo {
@@ -126,8 +127,9 @@
 
 #footer_lnk2 {
   color:#ffffff;
-  float:right;
-  padding-right:30px;
+  float: right;
+  padding-right:25px;
+  text-transform: uppercase;
 }
 
 .Footer{
@@ -170,7 +172,9 @@ ul {
   margin-top: -2px;
 }
 iframe {
-    margin-top: -48px;
+  margin-top: -60px;
+  height: 428px;
+  width: 418px;
 }
 #hr1{
   width: 280px;
@@ -183,13 +187,9 @@ a:hover#login-btn {
     background-color:  #1E4490;
     color:  white;
     text-decoration:  none;
-    border: 1px solid  #1E4490;
-    border-radius: 12px;
     padding: 3px;
 }
 
 a#login-btn {
     padding: 3px;
-    border: 1px solid #1E4490 ;
-    border-radius: 12px;
 }

@@ -153,6 +153,20 @@
           font-size: 23px;
           font-weight: bold;
         }
+        .col-lg-3 {
+            padding-left: 58px;
+            font-size: 18px;
+        }
+
+        .col-lg-2 {
+              font-size: 18px;
+        }
+
+        div#footer_1 {
+            height:  534px;
+        }
+
+
       </style>
 
     <!--[if lt IE 9]>
@@ -183,7 +197,7 @@
           <ul>
            <li class="side-menu"><a href="#">VI</a></li>
            <li class="divider">|</li>
-           <li class="side-menu"><a href="#">KR</a></li>
+           <li class="side-menu"><a href="#">EN</a></li>
            <li class="divider">|</li>
            <li  class="side-menu"><a href="#" class="hvr-fade" id="login-btn" onclick="document.getElementById('id01').style.display='block';$('.signup').hide();$('.signin').show();">Đăng nhập</a></li>
           </ul>

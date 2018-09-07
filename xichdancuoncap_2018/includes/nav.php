@@ -10,7 +10,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle hvr-fade nav-list" data-toggle="dropdown" id="sp">Sản phẩm</a>
+          <a href="#" class="dropdown-toggle hvr-fade nav-list" data-toggle="dropdown" id="sp">Sản phẩm - Hãng - Xuất xứ</a>
           <ul class="dropdown-menu">
             <li><a href="#">Í cụi</a></li>
             <li class="divider"></li>
