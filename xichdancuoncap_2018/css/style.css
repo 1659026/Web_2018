@@ -82,6 +82,11 @@
   background: none;
   border: none;
 }
+
+ul#Format_Nav {
+    margin-top:  -3px;
+}
+
 #topbar{
   font-size: 15px;
   font-weight: bold;
@@ -95,7 +100,7 @@
 }
 
 .dropdown{
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -104,13 +109,13 @@
 }
 
 a#lh, a#vd, a#gt {
-    width: 177px;
+    width: 166px;
     text-align: center;
 }
 
 
 a#sp {
-    width: 330px;
+    width: 363px;
     text-align: center;
 }
 
