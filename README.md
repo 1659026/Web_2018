@@ -1,5 +1,12 @@
 # Web_2018
 
+update 08/09/2018: 
+	-bot pic 
+	-text inside
+	-sroll bottom :new update {
+					when ever you are not on top it's wont appear, all the rest still normal
+				  }
+
 update 29/08/2018: 
 	-Fix the search bar
 	-Add Login button
