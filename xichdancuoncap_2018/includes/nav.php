@@ -5,7 +5,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle hvr-fade nav-list"data-toggle="dropdown" id="gt">Giới Thiệu</a>
             <ul class="dropdown-menu">
-              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="gioithieu.php">Giới thiệu</a></li>
               <li class="divider"></li>
             </ul>
           </li>
