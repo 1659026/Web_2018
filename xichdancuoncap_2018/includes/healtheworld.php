@@ -46,8 +46,6 @@
             </div>
             <!-- add  more items here -->
             <!-- Example item start:  -->
-
-
             <!--  Example item end -->
           </div>
           <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
@@ -67,7 +65,6 @@
     text-align: center;
     text-indent: 1.5em;
     padding-top: 200px;
-
   }
   .textheal{
     color: #F29220;
@@ -81,59 +78,57 @@
   /*MultipleCarousel */
 
   .multi-item-carousel{
-.carousel-inner{
-  > .item{
-    transition: 500ms ease-in-out left;
-  }
-  .active{
-    &.left{
-      left:-33%;
-    }
-    &.right{
-      left:33%;
-    }
-  }
-  .next{
-    left: 33%;
-  }
-  .prev{
-    left: -55%;
-  }
-  @media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-inner{
     > .item{
-      // use your favourite prefixer here
       transition: 500ms ease-in-out left;
-      transition: 500ms ease-in-out all;
-      backface-visibility: visible;
-      transform: none!important;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -55%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
     }
   }
-}
-.carouse-control{
-  &.left, &.right{
-    background-image: none;
-
+    .carouse-control{
+      &.left, &.right{
+        background-image: none;
+      }}
   }
-}
-}
 
-.carousel-control {
-    position: absolute;
-    top: 0;
-    bottom: 0px;
-    left: -200px;
-    width: 15%;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
-    filter: alpha(opacity=50);
-    opacity: .5;
-}
+  .carousel-control {
+      position: absolute;
+      top: 0;
+      bottom: 0px;
+      left: -200px;
+      width: 15%;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0,0,0,.6);
+      filter: alpha(opacity=50);
+      opacity: .5;
+  }
 
-a.right.carousel-control {
-    right: -200px;
-}
+  a.right.carousel-control {
+      right: -200px;
+  }
 
 </style>
 </div>

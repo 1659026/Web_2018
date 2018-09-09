@@ -1,13 +1,13 @@
 # Web_2018
 
-update 08/09/2018: 
-	-bot pic 
+update 08/09/2018:
+	-bot pic
 	-text inside
 	-sroll bottom :new update {
 					when ever you are not on top it's wont appear, all the rest still normal
 				  }
 
-update 29/08/2018: 
+update 29/08/2018:
 	-Fix the search bar
 	-Add Login button
 	-Add overlay
@@ -24,7 +24,7 @@ update 30/08/2018
 	- login button fixed
 	- added 2 forms and animations
 	- added Hover.css
-	
+
 	+Need to fix 2 form in the middle of the pages
 	+Responsive for whole web.
 update 04/09/2018
@@ -36,3 +36,8 @@ update 09/09/2018
 	= problem: image not fixed at the same size
 	- have problem displaying 3 pic only instead of 6 at 1 time
 	- the next button of carousel will be fix after previous issues fixed
+update 10/09/2018
+	-update banner carousel
+	=problem: styling the carousel Indicators
+	=problem: changing float style of indicators
+	=problem: the carousel button is over-spread the jumbotron

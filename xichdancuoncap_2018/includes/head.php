@@ -179,7 +179,7 @@
     <div class="container" id="menu-bar" >
       <div class="row" id = "Mast_Head">
         <div class="col-lg-4">
-          <a href="#"><img src="images/Home-Logo.svg" id = "Logo" alt=""></a>
+          <a href="index.php"><img src="images/Home-Logo.svg" id = "Logo" alt=""></a>
         </div>
         <div class="col-lg-4">
           <form class="" id="search-form" action="index.php" method="post">

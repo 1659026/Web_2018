@@ -3,50 +3,78 @@ include 'includes/head.php';
 include 'includes/nav.php'
 ?>
 
-    <div class="container">
-      <div class="jumbotron">
-          <h1>Hello, world!</h1>
-          <p></p>
-      </div>
+<div class="container">
+  <div class="jumbotron">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators" id = "mast_carousel">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/carousel/banner-brevetti.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/carousel/banner-america.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/carousel/banner-brevetti-2.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/carousel/banner-china.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/carousel/banner-EU.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/carousel/banner-india.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/carousel/banner-japan.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/carousel/banner-korea.png" alt="...">
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
+  </div>
+</div><!--//container -->
     <!-- Footer -->
     <div class="container">
-<a href="#" class="to-top"><img src="images/Uptotop.png" id = "sroll" alt=""></a>
-    </div>
-    <style>
-    .to-top {
-    	position: fixed;
-    	bottom: 300px;
-    	right: 20px;
-    	text-decoration: none;
-      opacity: 0.4;
-    	padding: 10px 20px;
-    	display: none;
-    }
-    .to-top:hover{
-    opacity: 1;
-    }
-    </style>
+      <a href="#" class="to-top"><img src="images/Uptotop.png" id = "sroll" alt=""></a>
+          </div>
+          <style>
+          .to-top {
+          	position: fixed;
+          	bottom: 300px;
+          	right: 20px;
+          	text-decoration: none;
+            opacity: 0.4;
+          	padding: 10px 20px;
+          	display: none;
+          }
+          .to-top:hover{
+          opacity: 1;
+          }
+          </style>
 
 <?php
  include 'includes/healtheworld.php';
  include 'includes/footer.php'
  ?>
-<script>
-	jQuery(document).ready(function() {
-		var duration = 500;
-		jQuery(window).scroll(function() {
-			if (jQuery(this).scrollTop() > 200) {
-				jQuery('.to-top').fadeIn(duration);
-			} else {
-				jQuery('.to-top').fadeOut(duration);
-			}
-		});
-
-		jQuery('.to-top').click(function(event) {
-			event.preventDefault();
-			jQuery('html').animate({scrollTop: 0}, duration);
-			return false;
-		})
-	});
-</script>
