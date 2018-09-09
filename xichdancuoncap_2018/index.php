@@ -16,7 +16,7 @@ include 'includes/nav.php'
     <style>
     .to-top {
     	position: fixed;
-    	bottom: 900px;
+    	bottom: 300px;
     	right: 20px;
     	text-decoration: none;
       opacity: 0.4;
@@ -29,7 +29,7 @@ include 'includes/nav.php'
     </style>
 
 <?php
- include 'includes/healtheworld.php'; 
+ include 'includes/healtheworld.php';
  include 'includes/footer.php'
  ?>
 <script>
