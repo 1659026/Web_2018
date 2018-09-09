@@ -24,18 +24,20 @@ update 30/08/2018
 	- login button fixed
 	- added 2 forms and animations
 	- added Hover.css
-
 	+Need to fix 2 form in the middle of the pages
 	+Responsive for whole web.
 update 04/09/2018
 	- Huy + Y : do the slide banner and follow the requests (in Process->read-me.txt)
 	- Gia Huy: change the background of header and add a button "up to top" (if you can't do javascript just do only css)
 	- Q: the rest.
+
 update 09/09/2018
 	- sponsor multiple-item carousel added
 	= problem: image not fixed at the same size
 	- have problem displaying 3 pic only instead of 6 at 1 time
-	- the next button of carousel will be fix after previous issues fixed
+	- the next button of carousel will be fix after previous issues fixed.
+
+
 update 10/09/2018
 	-update banner carousel
 	=problem: styling the carousel Indicators
