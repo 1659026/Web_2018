@@ -100,28 +100,28 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
           <div class="carousel slide multi-item-carousel" id="theCarousel">
             <div class="carousel-inner">
               <div class="item active">
-                <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/f44336/000000" class="img-responsive"></a></div>
+                <div class="col-xs-2"><a href="#1"><img src="https://cdn.vox-cdn.com/thumbor/9t-PRrkFmBTS8CuJ4ZNTan97hck=/0x0:1152x768/1200x800/filters:focal(484x292:668x476)/cdn.vox-cdn.com/uploads/chorus_image/image/60847707/logo_one_icon.0.jpg" class="img-responsive"></a></div>
               </div>
               <div class="item">
-                <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a></div>
+                <div class="col-xs-2"><a href="#1"><img src="http://www.clker.com/cliparts/9/b/2/A/K/w/purple-number-two-hi.png" class="img-responsive"></a></div>
               </div>
               <div class="item">
-                <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/9c27b0/000000" class="img-responsive"></a></div>
+                <div class="col-xs-2"><a href="#1"><img src="http://www.clker.com/cliparts/Z/9/b/Z/K/I/number-three-hi.png" class="img-responsive"></a></div>
               </div>
               <div class="item">
-                <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/673ab7/000000" class="img-responsive"></a></div>
+                <div class="col-xs-2"><a href="#1"><img src="http://www.clker.com/cliparts/v/G/G/A/D/s/four-md.png" class="img-responsive"></a></div>
               </div>
               <div class="item">
-                <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/4caf50/000000" class="img-responsive"></a></div>
+                <div class="col-xs-2"><a href="#1"><img src="http://www.clker.com/cliparts/h/c/8/0/V/l/four-md.png" class="img-responsive"></a></div>
               </div>
               <div class="item">
-                <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+                <div class="col-xs-2"><a href="#1"><img src="http://www.clker.com/cliparts/C/J/G/Y/x/h/six-md.png" class="img-responsive"></a></div>
               </div>
               <!-- add  more items here -->
               <!-- Example item start:  -->
 
               <div class="item">
-                <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+                <div class="col-xs-2"><a href="#1"><img src="https://vignette.wikia.nocookie.net/scribblenauts/images/f/fe/Seven.png/revision/latest?cb=20140410215149" class="img-responsive"></a></div>
               </div>
 
               <!--  Example item end -->
@@ -154,16 +154,53 @@ var next = $(this).next();
 if (!next.length) {
   next = $(this).siblings(':first');
   $('.left, .right').click(function(){
-    console.log(next);
   });
 
 }
 next.children(':first-child').clone().appendTo($(this));
-
+var next2 = $(this).siblings(':first');
+var x = 1;
 if (next.next().length>0) {
   next.next().children(':first-child').clone().appendTo($(this));
 } else {
-  $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  if (x == 1) {
+    next2.children(':first-child').clone().appendTo($(this));
+  } else if (x == 2) {
+    next2.next().children(':first-child').clone().appendTo($(this));
+  } else {
+    next2.next().next().children(':first-child').clone().appendTo($(this));
+  }
+  x++;
+}
+
+next = next.next();
+
+if (next.next().length>0) {
+  next.next().children(':first-child').clone().appendTo($(this));
+}  else {
+  if (x == 1) {
+    next2.children(':first-child').clone().appendTo($(this));
+  } else if (x == 2) {
+    next2.next().children(':first-child').clone().appendTo($(this));
+  } else {
+    next2.next().next().children(':first-child').clone().appendTo($(this));
+  }
+  x++;
+}
+next = next.next();
+
+if (next.next().length>0) {
+  next.next().children(':first-child').clone().appendTo($(this));
+  next = next.next();
+} else {
+  if (x == 1) {
+    next2.children(':first-child').clone().appendTo($(this));
+  } else if (x == 2) {
+    next2.next().children(':first-child').clone().appendTo($(this));
+  } else {
+    next2.next().next().children(':first-child').clone().appendTo($(this));
+  }
+  x++;
 }
 });
     </script>
