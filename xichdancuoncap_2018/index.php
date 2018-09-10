@@ -4,7 +4,7 @@ include 'includes/nav.php'
 ?>
 
 <div class="container">
-  <div class="jumbotron">
+  <div class="">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators" id = "mast_carousel">
@@ -59,20 +59,6 @@ include 'includes/nav.php'
     <div class="container">
       <a href="#" class="to-top"><img src="images/Uptotop.png" id = "sroll" alt=""></a>
           </div>
-          <style>
-          .to-top {
-          	position: fixed;
-          	bottom: 300px;
-          	right: 20px;
-          	text-decoration: none;
-            opacity: 0.4;
-          	padding: 10px 20px;
-          	display: none;
-          }
-          .to-top:hover{
-          opacity: 1;
-          }
-          </style>
 
 <?php
  include 'includes/healtheworld.php';

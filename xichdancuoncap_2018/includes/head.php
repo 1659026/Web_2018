@@ -177,6 +177,9 @@
   <body>
     <!-- Header -->
     <div class="container" id="menu-bar" >
+      <div class="white-background">
+
+      </div>
       <div class="row" id = "Mast_Head">
         <div class="col-lg-4">
           <a href="index.php"><img src="images/Home-Logo.svg" id = "Logo" alt=""></a>
