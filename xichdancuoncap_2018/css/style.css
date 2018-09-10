@@ -63,7 +63,7 @@
   width: 100%;
   height: 175px;
   box-shadow: 0px 3px 1px lightgrey;
-  background: url("../images/pic-header.png");
+  background: url("../images/pic-header2.jpg");
   background-size: cover;
   z-index: 1;
 }
@@ -123,6 +123,28 @@ a#tltk {
     width: 271px;
     text-align: center;
 }
+
+/*Back to top*/
+
+.to-top {
+  position: fixed;
+  bottom: 300px;
+  right: 20px;
+  text-decoration: none;
+  opacity: 0.4;
+  padding: 10px 20px;
+  display: none;
+}
+.to-top:hover{
+opacity: 1;
+}
+
+/*Main carousel*/
+
+div#myCarousel {
+  margin-top: 178px;
+}
+
 /*Intro jumbotron*/
 
 div.intro{
@@ -313,4 +335,27 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
 }
 ol.carousel-indicators li.active {
      background: yellow;
+}
+
+/*healtheworld*/
+#healtheworld1{
+  background: url("../images/picmaincontent1.png") no-repeat center;
+  width: 100%;
+  height: 845px;
+  text-align: center;
+  text-indent: 1.5em;
+  padding-top: 200px;
+}
+.textheal{
+  color: #F29220;
+  font-size: 40px;
+}
+.textheal1{
+  color: #707070;
+  font-size: 24px;
+  text-align: justify;
+  padding: 0px 339px;
+}
+.last-sentence {
+  text-align: center;
 }
