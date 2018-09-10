@@ -5,8 +5,8 @@
     <p> Chúng tôi - công ty <b>XÍCH DẪN CUỐN CÁP</b> - tự hào là nhà phân phối xích dẫn cáp lớn nhất
     tại Việt Nam cũng như trong khu vực Đông Nam Á và thế giới. Với hơn 20 đối tác lớn
     nhỏ như <b>Brevetti Stendalto, Ignus, KabelSchlepp, Conductix, Tsubaki, Murrplastik,</b>
-    <b>HanshinChain, CP System, Koduct, Kukje,...</b> chúng tôi có thể đáp ứng nhu cầu</p><p class="last-sentence">về
-    các loại xích dẫn cuộn cáp, dây cáp cũng như nhưng phụ kiện đi kèm hỗ trợ đi kèm</p>
+    <b>HanshinChain, CP System, Koduct, Kukje,...</b> chúng tôi có thể đáp ứng nhu cầu về
+    các loại xích dẫn cuộn cáp, dây cáp cũng như nhưng phụ kiện đi kèm hỗ trợ đi kèm.</p>
   </div>
 
   <div class="container">
@@ -58,7 +58,7 @@
 
 </div>
 <style>
-  
+
 
   /*MultipleCarousel */
 
