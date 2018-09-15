@@ -47,24 +47,5 @@ include 'includes/nav.php'
 
 <?php include 'includes/footer.php' ?>
 <script type="text/javascript">
-  $(document).ready(function(){
-    $('#cty').click(function(){
-      $('.cty-content').css({'display': 'block'}).hide().fadeIn(600);
-      $('.ceo-content, .dtac-content').hide();
-      $('#gt2, #bread-ceo, #bread-dtac').css({'display': 'none'});
-      $('#gt1, #bread-cty').css({'display': 'inline-block'});
-    });
-    $('#ceo').click(function(){
-      $('.cty-content, .dtac-content').hide();
-      $('.ceo-content').css({'display': 'block'}).hide().fadeIn(600);
-      $('#gt2, #bread-cty, #bread-dtac').css({'display': 'none'});
-      $('#gt1, #bread-ceo').css({'display': 'inline-block'});
-    });
-    $('#dtac').click(function(){
-      $('.cty-content, .ceo-content').hide();
-      $('.dtac-content').css({'display': 'block'}).hide().fadeIn(600);
-      $('#gt2, #bread-ceo, #bread-cty').css({'display': 'none'});
-      $('#gt1, #bread-dtac').css({'display': 'inline-block'});
-    });
-  });
+  
 </script>

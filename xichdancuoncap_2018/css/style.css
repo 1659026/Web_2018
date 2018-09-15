@@ -56,6 +56,15 @@
 }
 /*DO NOT CHANGE THIS*/
 
+.container-fluid {
+  padding: 0 !important;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 /*Header */
 #menu-bar{
   position: fixed;
@@ -65,6 +74,7 @@
   box-shadow: 0px 3px 1px lightgrey;
   background: url("../images/pic-header2.jpg");
   background-size: cover;
+  width: 100vw;
   z-index: 1;
 }
 
@@ -126,16 +136,16 @@ a#tltk {
 
 /*Back to top*/
 
-.to-top {
+#to-top .to-top {
   position: fixed;
   bottom: 300px;
-  right: 20px;
+  right: 50px;
   text-decoration: none;
   opacity: 0.4;
   padding: 10px 20px;
   display: none;
 }
-.to-top:hover{
+#to-top .to-top:hover{
 opacity: 1;
 }
 
@@ -231,12 +241,15 @@ ol.breadcrumb {
 #footer_1 {
   background-image: linear-gradient(#1e4490, #152F64);
   padding:15px;
+  width: 100vw;
+  margin: 0;
 }
 
 #footer_2 {
   background: #f29220;
   padding:5px;
-
+  width: 100vw;
+  margin: 0;
 }
 
 #footer_lnk1 {
@@ -315,6 +328,37 @@ a#login-btn {
     padding: 3px;
 }
 
+
+
+/*healtheworld*/
+#healtheworld1{
+  background: url("../images/picmaincontent1.png") no-repeat center;
+  width: 100%;
+  height: 845px;
+  text-align: center;
+  text-indent: 1.5em;
+  padding-top: 200px;
+}
+.textheal{
+  color: #F29220;
+  font-size: 40px;
+}
+.textheal1{
+  color: #707070;
+  font-size: 24px;
+  text-align: justify; text-align-last: center;
+  margin: 0 auto;
+  width: 960px;
+}
+
+/*mast_carousel*/
+.carousel-control:focus, .carousel-control:hover {
+  opacity: 1 !important;
+  background-image: none !important;
+}
+#myCarousel {
+  width: 100%;
+}
 ol.carousel-indicators {
      position: absolute;
      bottom: -15px;
@@ -337,23 +381,241 @@ ol.carousel-indicators li.active {
      background: yellow;
 }
 
-/*healtheworld*/
-#healtheworld1{
-  background: url("../images/picmaincontent1.png") no-repeat center;
+#myCarousel .glyphicon {
+    font-size: 80px !important;
+}
+
+#myCarousel span.glyphicon.glyphicon-menu-left {
+  margin-right: 100px;
+  margin-top: 300px;
+}
+
+#myCarousel span.glyphicon.glyphicon-menu-right {
+  margin-left: 100px;
+  margin-top: 300px;
+}
+
+
+/*doi tac chien luoc*/
+#theCarousel {
   width: 100%;
-  height: 845px;
+}
+.dtcl {
+  margin-top: 100px;
+  color: #1E4490;
   text-align: center;
-  text-indent: 1.5em;
-  padding-top: 200px;
-}
-.textheal{
-  color: #F29220;
   font-size: 40px;
+  font-weight: bold;
 }
-.textheal1{
-  color: #707070;
-  font-size: 24px;
-  text-align: justify; text-align-last: center;
-  margin: 0 auto;
-  width: 1200px;
+/*company carousel*/
+
+img.img-responsive {
+    height: 130px;
+    width: 230px;
+    object-fit: contain;
 }
+
+#theCarousel .carousel-inner{
+  padding: 0 180px;
+}
+
+#theCarousel .glyphicon {
+    font-size: 80px !important;
+}
+
+#theCarousel i.glyphicon.glyphicon-menu-left, #theCarousel i.glyphicon.glyphicon-menu-right {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+
+.multi-item-carousel{
+.carousel-inner{
+  > .item{
+    transition: 500ms ease-in-out left;
+  }
+  .active{
+    &.left{
+      left:-33%;
+    }
+    &.right{
+      left:33%;
+    }
+  }
+  .next{
+    left: 33%;
+  }
+  .prev{
+    left: -55%;
+  }
+  @media all and (transform-3d), (-webkit-transform-3d) {
+    > .item{
+      // use your favourite prefixer here
+      transition: 500ms ease-in-out left;
+      transition: 500ms ease-in-out all;
+      backface-visibility: visible;
+      transform: none!important;
+    }
+  }
+}
+
+}
+
+.carousel-control.left, .carousel-control.right {
+  opacity: 1 !important;
+  background-image: none !important;
+}
+
+/*css from header*/
+
+  .round {
+      width: 100%;
+      border-radius: 15px;
+      border: none;
+      padding: 5px 5px 5px 25px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    li a.dropdown-toggle{
+      color: #1E4490;
+    }
+
+    .inner-addon {
+    position: relative;
+    }
+    hr{
+      width: auto;
+      margin-left: -1px;
+    }
+
+    p {
+      margin: -6px 0 10px;
+    }
+
+    /* style icon */
+    .inner-addon .glyphicon {
+      position: absolute;
+      padding: 10px;
+      pointer-events: none;
+    }
+
+    /* align icon */
+    .right-addon .glyphicon {
+      right: 5px;
+      margin-top:10px;
+    }
+
+    /* add padding  */
+    .right-addon input {
+      padding-right: 30px;
+
+    }
+    form{
+      margin-left: 75px;
+      margin-top: 10px;
+    }
+    #search1{
+      width: 0px;
+      float: right;
+      position: relative;
+      transition: width 0.5s;
+       text-align: left;
+       margin-top: 18px;
+       opacity: 0;
+
+    }
+    #search1:hover{
+      width: 390px;
+      opacity: 9;
+    }
+    img#Logo {
+      margin-right: -16px;
+        padding-bottom: 10px;
+    }
+
+    li a:hover#gt, a:hover#sp, a:hover#lh, a:hover#vd, a:hover#tltk {
+        background-color:  #1E4490;
+    }
+    .jumbotron {
+        padding-top: 175px;
+    }
+
+    input.form-st {
+      border: none;
+      border-bottom: 1px solid #1E4490;
+      box-shadow:  none;
+      border-radius: unset;
+      width: max-content;
+      margin: auto;
+      width: 346px;
+    }
+
+    label{
+      margin-left: 50px;
+      font-weight: unset;
+      color: #1E4490;
+      font-size: 25px;
+    }
+    img.avatar {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 78px;
+      margin-top: 20px;
+      margin-bottom:11px;
+    }
+
+    form.modal-content.animate {
+      width: 450px;
+      height: 635px;
+      border-radius: 50px;
+    }
+    p.dksd{
+      text-align: left;
+      padding: 0px 51px 0px 51px;
+      font-size: 18px;
+      color: #1E4490;
+    }
+
+    p.dksd2{
+      margin-top: 14px;
+      margin-bottom: 20px;
+      text-align: center;
+      padding: 0px 51px 0px 51px;
+      font-size: 18px;
+      color: #1E4490;
+      font-weight: bold;
+    }
+    button.sign-up{
+      margin: auto;
+      background-color: #1E4490;
+      color: white;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      width: 39%;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    button.sign-in{
+      margin: auto;
+      background-color: #1E4490;
+      color: white;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      width: 39%;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    .col-lg-3 {
+        padding-left: 58px;
+        font-size: 18px;
+    }
+
+    .col-lg-2 {
+          font-size: 18px;
+    }
+
+    div#footer_1 {
+        height:  534px;
+    }

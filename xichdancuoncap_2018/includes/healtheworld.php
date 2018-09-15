@@ -2,14 +2,17 @@
   <div class="textheal">
     <p><b>NHÀ CUNG CẤP XÍCH DẪN CUỐN CÁP TOÀN CẦU</b></p>
     <div class="textheal1">
-    <p> Chúng tôi - công ty <b>XÍCH DẪN CUỐN CÁP</b> - tự hào là nhà phân phối xích dẫn cáp lớn nhất
+    <p>Chúng tôi - công ty <b>XÍCH DẪN CUỐN CÁP</b> - tự hào là nhà phân phối xích dẫn cáp lớn nhất
     tại Việt Nam cũng như trong khu vực Đông Nam Á và thế giới. Với hơn 20 đối tác lớn
     nhỏ như <b>Brevetti Stendalto, Ignus, KabelSchlepp, Conductix, Tsubaki, Murrplastik,</b>
     <b>HanshinChain, CP System, Koduct, Kukje,...</b> chúng tôi có thể đáp ứng nhu cầu về
     các loại xích dẫn cuộn cáp, dây cáp cũng như nhưng phụ kiện đi kèm hỗ trợ đi kèm.</p>
   </div>
+  <div class="dtcl">
+    <p>ĐỐI TÁC CHIẾN LƯỢC</p>
+  </div>
 
-  <div class="container">
+  <div class="container-fluid company-carousel">
     <div class="row">
       <div class="col-md-12">
         <div class="carousel slide multi-item-carousel" id="theCarousel">
@@ -48,8 +51,8 @@
             <!-- Example item start:  -->
             <!--  Example item end -->
           </div>
-          <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-          <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+          <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-menu-left"></i></a>
+            <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-menu-right"></i></a>
         </div>
       </div>
     </div>
@@ -57,63 +60,5 @@
 
 
 </div>
-<style>
 
-
-  /*MultipleCarousel */
-
-  .multi-item-carousel{
-  .carousel-inner{
-    > .item{
-      transition: 500ms ease-in-out left;
-    }
-    .active{
-      &.left{
-        left:-33%;
-      }
-      &.right{
-        left:33%;
-      }
-    }
-    .next{
-      left: 33%;
-    }
-    .prev{
-      left: -55%;
-    }
-    @media all and (transform-3d), (-webkit-transform-3d) {
-      > .item{
-        // use your favourite prefixer here
-        transition: 500ms ease-in-out left;
-        transition: 500ms ease-in-out all;
-        backface-visibility: visible;
-        transform: none!important;
-      }
-    }
-  }
-    .carouse-control{
-      &.left, &.right{
-        background-image: none;
-      }}
-  }
-
-  .carousel-control {
-      position: absolute;
-      top: 0;
-      bottom: 0px;
-      left: -200px;
-      width: 15%;
-      font-size: 20px;
-      color: #fff;
-      text-align: center;
-      text-shadow: 0 1px 2px rgba(0,0,0,.6);
-      filter: alpha(opacity=50);
-      opacity: .5;
-  }
-
-  a.right.carousel-control {
-      right: -200px;
-  }
-
-</style>
 </div>

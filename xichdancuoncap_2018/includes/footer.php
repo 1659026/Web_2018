@@ -1,5 +1,7 @@
 <div class="container-fluid" id="footer_txt">
-
+  <div class="container"  id="to-top">
+    <a href="#" class="to-top"><img src="images/Uptotop.png" id = "sroll" alt=""></a>
+        </div>
   <div class="row" id="footer_1">
     <div class="col-lg-2">
 
@@ -48,7 +50,7 @@
       <BR>
         <BR>
           <BR>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4694.874377371603!2d106.6984420460361!3d10.772907571526616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f416fbaa399%3A0x2edc5a871381f8e1!2zVMOyYSBuaMOgIEJpdGV4Y28!5e0!3m2!1sen!2s!4v1535112745806"  width="360" height="320" frameborder="0" style="border:0;" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.7603453047537!2d106.63082442923049!3d10.808142616833209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175295f349cc1bb%3A0x560e51099edc9194!2zTmd1eeG7hW4gSOG7r3UgROG6rXQsIFTDonkgVGjhuqFuaCwgVMOibiBQaMO6LCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1537023416648" width="360" height="320" frameborder="0" style="border:0;" allowfullscreen></iframe>
 
     </div>
     <div class="col-lg-2">
@@ -74,8 +76,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/customjs.js"></script>
-<script type="text/javascript">
 
-</script>
 </body>
 </html>

@@ -3,8 +3,8 @@ include 'includes/head.php';
 include 'includes/nav.php'
 ?>
 
-<div class="container">
-  <div class="">
+<div class="container-fluid">
+  <div class="mast_carousel">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators" id = "mast_carousel">
@@ -47,18 +47,16 @@ include 'includes/nav.php'
 
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="glyphicon glyphicon-menu-left"></span>
         </a>
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="glyphicon glyphicon-menu-right"></span>
         </a>
     </div>
   </div>
 </div><!--//container -->
     <!-- Footer -->
-    <div class="container">
-      <a href="#" class="to-top"><img src="images/Uptotop.png" id = "sroll" alt=""></a>
-          </div>
+
 
 <?php
  include 'includes/healtheworld.php';
