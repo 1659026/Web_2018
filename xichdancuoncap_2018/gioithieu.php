@@ -2,11 +2,6 @@
 include 'includes/head.php';
 include 'includes/nav.php'
 ?>
-<?php
-    $active = "active";
-    $current = 'aria-current="page"';
-    $intro = 'Giới thiệu';
-?>
     <div class="container-fluid">
       <div class="intro">
         <div class="row">
@@ -47,5 +42,5 @@ include 'includes/nav.php'
 
 <?php include 'includes/footer.php' ?>
 <script type="text/javascript">
-  
+
 </script>

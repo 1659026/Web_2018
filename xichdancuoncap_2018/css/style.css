@@ -75,7 +75,7 @@ body {
   background: url("../images/pic-header2.jpg");
   background-size: cover;
   width: 100vw;
-  z-index: 1;
+  z-index: 2;
 }
 
 #Logo {
@@ -158,12 +158,9 @@ div#myCarousel {
 /*Intro jumbotron*/
 
 div.intro{
-  background: url("../images/temp_stripe.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: white;
   margin: auto;
-  height: 200vh;
+  height: 80vh;
   width: 1200px;
   padding-top: 145px;
   z-index: -1;
@@ -206,6 +203,7 @@ ol.breadcrumb {
   background: url("../images/pic-header.png");
   background-size: cover;
   position: static;
+  border-radius: 25px;
 }
 
 .breadcrumb>li+li:before {
@@ -359,26 +357,24 @@ a#login-btn {
 #myCarousel {
   width: 100%;
 }
-ol.carousel-indicators {
-     position: absolute;
-     bottom: -15px;
-     margin: 0;
-     margin-left: 480px;
-     left: 0;
-     right: 0;
-     width: 100px;
+
+#myCarousel .carousel-indicators {
+  bottom: 0px;
+  z-index: 1;
 }
-ol.carousel-indicators li, ol.carousel-indicators li.active {
-    float: none;
-     width: 33%;
-     height: 10px;
-     margin: 0;
-     border-radius: 0;
-     border: 0;
-     background: white;
+
+#myCarousel .carousel-indicators .active{
+  width: 50px;
+  opacity: 1
 }
-ol.carousel-indicators li.active {
-     background: yellow;
+#myCarousel .carousel-indicators li{
+  border: none;
+  background-color: #1E4490;
+  width: 20px;
+  height: 20px;
+  transition: width 400ms;
+  margin: 0px 7px;
+  opacity: 0.4;
 }
 
 #myCarousel .glyphicon {
